@@ -1,5 +1,5 @@
 import csv 
-with open("HeightWeight.csv",newline = '') as f:
+with open("SOCR-HeightWeight.csv",newline = '') as f:
     reader = csv.reader(f)
     filedata = list(reader)
 filedata.pop(0)
